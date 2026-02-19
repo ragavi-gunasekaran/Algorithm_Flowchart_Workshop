@@ -74,6 +74,8 @@ END
 ### ✔ Flowchart
 
 ```
+flowchart TD
+
 ![alt text](image.png)
 ```
 
