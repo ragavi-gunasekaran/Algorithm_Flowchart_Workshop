@@ -59,6 +59,16 @@ both.
 
 ### ✔ Pseudocode
 
+START
+	INPUT Subject1,Subject2,Subject3
+	SET Total = 0
+    SET	Average = 0
+    Total = Subject1 + Subject2 + Subject3
+	Average = Total / 3
+	Display Total 
+    Display Average 
+END
+
 ### ✔ Flowchart
 
 ---
