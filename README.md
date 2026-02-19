@@ -84,6 +84,27 @@ END
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
 
+### ✔ Pseudocode
+
+```text
+START
+	INPUT number
+	SET index = 1
+	SET Result = 0
+	WHILE index ≤ 10
+		Result = number * index
+		Display "Multiple of " number * index = Result
+		index = index + 1
+	END WHILE
+END
+```
+
+### ✔ Flowchart
+
+![alt text](image-1.png)
+
+
+
 ---
 
 ## 4. Positive, Negative, or Zero Check
