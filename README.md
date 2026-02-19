@@ -248,6 +248,26 @@ END
 Write the algorithm and draw the flowchart that input a number and
 calculate its factorial using a loop.
 
+### ✔ Pseudocode
+
+```text
+START
+    INPUT number
+    SET factorial = 1
+	SET index = 1
+    WHILE index <= number
+        factorial = factorial * index
+		index = index + 1
+    END WHILE
+    Display factorial
+END
+```
+
+### ✔ Flowchart
+
+![alt text](image-7.png)
+
+
 ---
 
 ## 10. Calculate Discount on Purchase
@@ -255,5 +275,16 @@ calculate its factorial using a loop.
 Write the algorithm and draw the flowchart for a program that inputs the
 purchase amount and gives a **10% discount** if the amount is greater
 than 1000.
+
+### ✔ Pseudocode
+
+```text
+
+```
+
+### ✔ Flowchart
+
+
+
 
 ---
