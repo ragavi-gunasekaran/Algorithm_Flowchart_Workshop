@@ -59,8 +59,9 @@ both.
 
 ### ✔ Pseudocode
 
+```text
 START
-	INPUT Subject1,Subject2,Subject3
+    INPUT Subject1,Subject2,Subject3
 	SET Total = 0
     SET	Average = 0
     Total = Subject1 + Subject2 + Subject3
@@ -68,6 +69,7 @@ START
 	Display Total 
     Display Average 
 END
+```
 
 ### ✔ Flowchart
 
