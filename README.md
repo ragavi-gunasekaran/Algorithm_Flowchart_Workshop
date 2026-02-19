@@ -279,12 +279,22 @@ than 1000.
 ### ✔ Pseudocode
 
 ```text
+START
+	INPUT purchase_amount
+	SET discount = 0
+	SET Total_Amount = purchase_amount
+	IF purchase_amount > 1000 THEN
+		discount = purchase_amount * 0.10
+	END IF
+	Total_Amount = purchase_amount - discount
+	Display Total_Amount
+END
 
 ```
 
 ### ✔ Flowchart
 
-
+![alt text](image-8.png)
 
 
 ---
