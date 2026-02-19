@@ -227,11 +227,12 @@ otherwise **"Fail"**.
 
 ```text
 START
-	INPUT length
-	INPUT width
-	SET Area = 0
-    Area = length * width
-    Display Area 
+	INPUT Average
+	IF Average >= 50 THEN
+		Display "Pass"
+	ELSE
+	    Display "Fail"
+	END IF
 END
 ```
 
