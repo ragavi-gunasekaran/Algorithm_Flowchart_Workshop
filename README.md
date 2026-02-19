@@ -170,6 +170,27 @@ END
 Write the algorithm and draw the flowchart for a program that takes the
 temperature of 7 days, finds the average temperature, and displays it.
 
+### ✔ Pseudocode
+
+```text
+START
+	SET day = 1
+	SET Total = 0
+	WHILE day <= 7
+		Input Temperature
+		Total = Total + Temperature
+		day = day + 1
+	END WHILE
+	SET Average = Total / 7
+	Display "Average temperature = " Average
+END
+```
+
+### ✔ Flowchart
+
+![alt text](image-4.png)
+
+
 ---
 
 ## 7. Calculate Area of a Rectangle
