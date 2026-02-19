@@ -16,7 +16,7 @@ following sections:
 ### ✔ Pseudocode
 
 ### ✔ Flowchart
-
+![alt text](image.png)
 ---
 
 ## 1. Check Even or Odd Number
@@ -72,6 +72,16 @@ END
 ```
 
 ### ✔ Flowchart
+
+```mermaid
+flowchart TD
+    A([Start]) --> I[/Get input N/]
+    I --> B{N % 2 == 0 ?}
+    B -->|Yes| C[/Print Even/]
+    B -->|No| D[/Print Odd/]
+    C --> E([End])
+    D --> E([End])
+```
 
 ---
 
